@@ -21,7 +21,6 @@ body{
     text-align: center;
     border: 10px solid #000000
 }
-
 #digite{
     font-size: 16pt;
     margin-top: -166px;    
@@ -134,6 +133,7 @@ footer p {
     }
     .mensagem{
         margin-top: 30px;
+        display: block;
     }
     #digite{
         display: none;
@@ -141,6 +141,7 @@ footer p {
     .botoes, .aviso{
         padding-left: 0;
         margin-top: 15px;
+        display: block;
     }
     #novoTextoPai div, div .aparecer,  #novoTextoPai,  #textoPai div {
         width: 100%;
