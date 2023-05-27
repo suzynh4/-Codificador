@@ -125,7 +125,6 @@ footer p {
 }
 
 @media screen and (max-width: 940px) {
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,700;1,300;1,400;1,700&family=Poppins:wght@200;300;400;500&display=swap');
 
     #texto, #novoTexto, .botoes, .mensagemPai, .aviso, #digite{
         width: 95%;

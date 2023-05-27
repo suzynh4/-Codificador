@@ -1,9 +1,10 @@
 function criptografar(){
     const textoInicial = utils()
-    const novoTexto = document. getElementById("novoTexto")
+    const novoTexto = document. getElementById("texto")
     const arrayListText = textoInicial.split("");
     const arrayListCript = []
-    
+    console.log(textoInicial);
+}
     for (let i = 0; i < arrayListText.length; i++) {
         if(arrayListText[i] == 'a') {
             arrayListCript.push('ai')
@@ -22,7 +23,6 @@ function criptografar(){
 
     novoTexto.innerHTML = arrayListCript.join('')
     
-}
 
 
 function descriptografar(){
@@ -33,7 +33,7 @@ function descriptografar(){
 
 
     novoTexto.innerHTML = descriptografar
-    
+    return textoInicial
 }
 
 function utils () {
@@ -48,7 +48,7 @@ function utils () {
     novoTextoPai.classList.add("aparecer")
     
 
-    return textoInicial
+    
     
 } 
 
