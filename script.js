@@ -1,11 +1,12 @@
 function criptografar(){
     const textoInicial = utils()
-    const novoTexto = document. getElementById("texto")
-    const arrayListText = textoInicial.split("");
-    const arrayListCript = []
-    console.log(textoInicial);
-}
-    for (let i = 0; i < arrayListText.length; i++) {
+    const novoTexto = document.getElementById("novoTexto")
+     const arrayListText = textoInicial.split('');
+     
+     const arrayListCript = []
+    
+textoInicial.split()
+    for (let i = 0; i <arrayListText.length; i++){
         if(arrayListText[i] == 'a') {
             arrayListCript.push('ai')
         } else if (arrayListText[i] == 'e') {
@@ -20,10 +21,12 @@ function criptografar(){
             arrayListCript.push(arrayListText[i])
         }
     }
+  
 
     novoTexto.innerHTML = arrayListCript.join('')
+    console.log(novoTexto)
     
-
+}
 
 function descriptografar(){
     const textoFinal = utils()
@@ -33,11 +36,12 @@ function descriptografar(){
 
 
     novoTexto.innerHTML = descriptografar
-    return textoInicial
+    
 }
 
-function utils () {
+function utils() {
     const textoInicial = document.getElementById("texto").value.toLowerCase()
+   
     const resultado = document.getElementById('resultado')
     const mensagem = document.getElementById('mensagem')
     const apagar = document.getElementById("apagar")
@@ -46,9 +50,14 @@ function utils () {
     
     resultado.style.justifyContent = 'start' 
     novoTextoPai.classList.add("aparecer")
+
+    // mensagem.style.display = 'none'
+    // apagar.style.display = 'none'
+    // resultado.style.justifyContent = 'start' 
+    // novoTextoPai.classList.add("aparecer")
     
 
-    
+    return textoInicial;
     
 } 
 
