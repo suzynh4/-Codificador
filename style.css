@@ -1,70 +1,84 @@
-body{
+body {
     font-family: "Poppins", sans-serif;
     background-color: rgb(235, 243, 245);
 
-  
+
 }
-.logo{
+
+.logo {
     margin: 0 30px 30px 30px;
     width: 20%;
-} 
-.mensagemPai{
-    width: 940px;
-    
 }
-.mensagem{
+
+.mensagemPai {
+    width: 940px;
+
+}
+
+.mensagem {
     margin: 0 auto;
     height: 80px;
-    padding-top: 26px ;
+    padding-top: 26px;
     font-size: 2rem;
-    font-weight: bold;    
+    font-weight: bold;
     text-align: center;
     border: 10px solid #000000
 }
-#digite{
+
+#digite {
     font-size: 16pt;
-    margin-top: -166px;    
+    margin-top: -166px;
 }
-#textoPai{
+
+#textoPai {
     text-align: center;
     padding-top: -160px;
     margin-top: 15px;
 }
-#textoPai div, #novoTextoPai div{
+
+#textoPai div,
+#novoTextoPai div {
     width: 50%;
     margin: auto;
     text-align: left;
     font-size: 18pt;
     margin-bottom: 10px;
 }
-#texto, #novoTexto{
+
+#texto,
+#novoTexto {
     width: 50%;
     border-radius: 5px;
     font-size: 22px;
-    padding: 10px;   
-    resize: none; 
+    padding: 10px;
+    resize: none;
 }
-.aviso{
+
+.aviso {
     padding-left: 325px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     margin: 5px auto;
 }
-.icone{
+
+.icone {
     font-size: 1.4rem;
-    color:rgb(36, 107, 214);
+    color: rgb(36, 107, 214);
 }
+
 .informacao {
     font-size: 22px;
-    color:#343A40;
+    color: #343A40;
 }
-.botoes{
-    
+
+.botoes {
+
     margin-top: 20px;
     margin-right: 60px;
     text-align: center;
 }
+
 .bd {
     border: solid 2px;
     border-radius: 15px 15px;
@@ -72,11 +86,12 @@ body{
     background-color: rgb(6, 6, 129);
     padding: 1rem 2rem;
     font-size: 16pt;
-    color:aliceblue;
+    color: aliceblue;
     text-decoration: none;
     margin-left: 10px;
 }
-.bc{
+
+.bc {
     border: solid 2px;
     border-radius: 15px 15px;
     box-shadow: 2px 2px 2px 2px rgb(155, 188, 238);
@@ -86,7 +101,7 @@ body{
     text-decoration: none;
 }
 
-#texto-final{
+#texto-final {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     box-sizing: border-box;
@@ -95,25 +110,30 @@ body{
     width: 100%;
     border: none;
 }
-#copiar{
+
+#copiar {
     color: var(--azul);
     width: 90%;
     text-decoration: none;
-} 
+}
+
 .resultado {
     text-align: right;
-} 
+}
+
 #apagar {
     display: flex;
     flex-direction: row-reverse;
-    
-} 
-#novoTextoPai{
+
+}
+
+#novoTextoPai {
     text-align: center;
     padding-top: 40px;
     margin-top: 15px;
 }
-div .aparecer{
+
+div .aparecer {
     text-align: center;
     padding-top: 30px;
     display: block !important;
@@ -126,27 +146,41 @@ footer p {
 
 @media screen and (max-width: 940px) {
 
-    #texto, #novoTexto, .botoes, .mensagemPai, .aviso, #digite{
+    #texto,
+    #novoTexto,
+    .botoes,
+    .mensagemPai,
+    .aviso,
+    #digite {
         width: 95%;
         margin: auto;
     }
-    .mensagem{
+
+    .mensagem {
         margin-top: 30px;
         display: block;
     }
-    #digite{
+
+    #digite {
         display: none;
     }
-    .botoes, .aviso{
+
+    .botoes,
+    .aviso {
         padding-left: 0;
         margin-top: 15px;
         display: block;
     }
-    #novoTextoPai div, div .aparecer,  #novoTextoPai,  #textoPai div {
+
+    #novoTextoPai div,
+    div .aparecer,
+    #novoTextoPai,
+    #textoPai div {
         width: 100%;
     }
-    #novoTextoPai div,  #textoPai div{
+
+    #novoTextoPai div,
+    #textoPai div {
         margin-left: 10px;
     }
 }
-
